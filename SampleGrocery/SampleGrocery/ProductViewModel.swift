@@ -21,6 +21,7 @@ class ProductViewModel : ObservableObject {
                     let product = try? JSONDecoder().decode(ProductModel.self, from: data)
                     print(product?.productData)
                     if let product = product {
+                        print("testing github")
                         DispatchQueue.main.async {
                             self.productData = product.productData
                             print(product)
