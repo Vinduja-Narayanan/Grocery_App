@@ -9,11 +9,10 @@ import SwiftUI
 
 @main
 struct SampleGroceryApp: App {
-    @StateObject var grocery = ProductViewModel()
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(grocery:grocery)
+            SplashScreenView()
                 
         }
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8189BB6F2A20D54200AA82C1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189BB6E2A20D54200AA82C1 /* SplashScreenView.swift */; };
+		8189BB712A20D5BC00AA82C1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189BB702A20D5BC00AA82C1 /* TabBarView.swift */; };
+		8189BB732A20D76800AA82C1 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189BB722A20D76800AA82C1 /* ProductListView.swift */; };
 		81C5EFD32A173EE9006F66A2 /* SampleGroceryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5EFD22A173EE9006F66A2 /* SampleGroceryApp.swift */; };
 		81C5EFD52A173EE9006F66A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5EFD42A173EE9006F66A2 /* ContentView.swift */; };
 		81C5EFD72A173EEA006F66A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C5EFD62A173EEA006F66A2 /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8189BB6E2A20D54200AA82C1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8189BB702A20D5BC00AA82C1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		8189BB722A20D76800AA82C1 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		81C5EFCF2A173EE9006F66A2 /* SampleGrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C5EFD22A173EE9006F66A2 /* SampleGroceryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGroceryApp.swift; sourceTree = "<group>"; };
 		81C5EFD42A173EE9006F66A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 				81C5EFD22A173EE9006F66A2 /* SampleGroceryApp.swift */,
 				81C5F0052A174183006F66A2 /* ProductViewModel.swift */,
 				81C5F0032A174161006F66A2 /* ProductModel.swift */,
+				8189BB6E2A20D54200AA82C1 /* SplashScreenView.swift */,
+				8189BB702A20D5BC00AA82C1 /* TabBarView.swift */,
+				8189BB722A20D76800AA82C1 /* ProductListView.swift */,
 				81C5EFD42A173EE9006F66A2 /* ContentView.swift */,
 				81C5EFD62A173EEA006F66A2 /* Assets.xcassets */,
 				81C5EFDB2A173EEA006F66A2 /* Persistence.swift */,
@@ -271,10 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8189BB6F2A20D54200AA82C1 /* SplashScreenView.swift in Sources */,
 				81C5EFDC2A173EEA006F66A2 /* Persistence.swift in Sources */,
+				8189BB712A20D5BC00AA82C1 /* TabBarView.swift in Sources */,
 				81C5EFD52A173EE9006F66A2 /* ContentView.swift in Sources */,
 				81C5F0062A174183006F66A2 /* ProductViewModel.swift in Sources */,
 				81C5EFD32A173EE9006F66A2 /* SampleGroceryApp.swift in Sources */,
+				8189BB732A20D76800AA82C1 /* ProductListView.swift in Sources */,
 				81C5EFDF2A173EEA006F66A2 /* SampleGrocery.xcdatamodeld in Sources */,
 				81C5F0042A174161006F66A2 /* ProductModel.swift in Sources */,
 			);
